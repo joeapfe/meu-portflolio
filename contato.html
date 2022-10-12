@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Sobre mim</a>
+                </li>
+                <li>
+                    <a href="projetos.html">Projetos</a>
+                </li>
+                <li>
+                    <a href="contato.html">Contato</a>
+                </li>                       
+            </ul>
+        </nav>        
+        <header class="center">
+            <div>
+                <img src="./img/20220707_084146.jpg"></img>
+            </div>   
+            <h1>Joel Aparecido</h1>
+            <h2>Estudante Front-End</h2>
+        </header>    
+       <form class="contact-form" action="https://formsubmit.co/joeapfe@gmail.com" method="POST" autocomplete="off">
+          <label for="email">E-mail</label>
+          <input type="email" name="email" id="email" obrigatório>
+          <label for="message">Mensagem</label>
+          <input type="text" name="message" id="message" obrigatório>
+          <input type="hidden" name="_next" value="http://127.0.0.1:5500/obrigado.html">
+          <button type="submit" class="enviar">Enviar</button>
+         
+        </form>
+    </div>
+    
+</body>
+</html>
